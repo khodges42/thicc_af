@@ -18,4 +18,12 @@ Add the following tags to each EC2 instance you would like to monitor
 
 Add hosts to /etc/ansible/hosts, in the following format: hostname.or.ip ansible_user=gorillabiscuits ansible_ssh_private_key_file=/home/falken/.ssh/joshua
 
+## Todo
+Need to add the following plays:
+- Resize EBS
+- Resize OS Partition
+
+Want the following features:
+- Correlate mount points w/ ebs volumes
+- Email alerting
 
